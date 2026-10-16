@@ -1,0 +1,63 @@
+{"timestamp":"00:00:00.834","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:05.427","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:05.717","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:00:05.728","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}
+{"timestamp":"00:08:53.054","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:08:58.562","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:08:58.823","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:08:58.824","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}
+{"timestamp":"00:09:06.825","source":"Server","level":"LOG","message":"✓ Compiled in 60ms"}
+{"timestamp":"00:09:07.347","source":"Browser","level":"ERROR","message":"Uncaught Error: Element type is invalid. Received a promise that resolves to: [object Object]. Lazy element type must resolve to a class or function.\n    at Home (app/page.tsx:351:17)\n  \u001b[90m349 |\u001b[0m\n  \u001b[90m350 |\u001b[0m               <div className=\u001b[32m\"relative\"\u001b[0m>\n\u001b[31m\u001b[1m>\u001b[0m \u001b[90m351 |\u001b[0m                 <\u001b[33mEarthGlobe\u001b[0m\n  \u001b[90m    |\u001b[0m                 \u001b[31m\u001b[1m^\u001b[0m\n  \u001b[90m352 |\u001b[0m                   latitude={iss?.latitude ?? \u001b[36mnull\u001b[0m}\n  \u001b[90m353 |\u001b[0m                   longitude={iss?.longitude ?? \u001b[36mnull\u001b[0m}\n  \u001b[90m354 |\u001b[0m                 />"}
+{"timestamp":"00:09:07.348","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught Error: Element type is invalid. Received a promise that resolves to: [object Object]. Lazy element type must resolve to a class or function.\\u001b[39m\\n\\u001b[31m    at Home (app/page.tsx:351:17)\\u001b[39m\\n  \\u001b[90m349 |\\u001b[0m\\n  \\u001b[90m350 |\\u001b[0m               <div className=\\u001b[32m\\\"relative\\\"\\u001b[0m>\\n\\u001b[31m\\u001b[1m>\\u001b[0m \\u001b[90m351 |\\u001b[0m                 <\\u001b[33mEarthGlobe\\u001b[0m\\n  \\u001b[90m    |\\u001b[0m                 \\u001b[31m\\u001b[1m^\\u001b[0m\\n  \\u001b[90m352 |\\u001b[0m                   latitude={iss?.latitude ?? \\u001b[36mnull\\u001b[0m}\\n  \\u001b[90m353 |\\u001b[0m                   longitude={iss?.longitude ?? \\u001b[36mnull\\u001b[0m}\\n  \\u001b[90m354 |\\u001b[0m                 />\""}
+{"timestamp":"00:09:12.595","source":"Server","level":"LOG","message":"✓ Compiled in 45ms"}
+{"timestamp":"00:09:14.902","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload due to a runtime error."}
+{"timestamp":"00:09:15.026","source":"Browser","level":"WARN","message":"THREE.WARNING: Multiple instances of Three.js being imported."}
+{"timestamp":"00:09:15.187","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.WARNING: Multiple instances of Three.js being imported.\\u001b[39m\" \"\\u001b[2m(app/components/EarthGlobe.tsx:4:1)\\u001b[22m\""}
+{"timestamp":"00:09:15.713","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:09:15.945","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:09:15.946","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}
+{"timestamp":"00:15:16.266","source":"Server","level":"LOG","message":"✓ Compiled in 221ms"}
+{"timestamp":"00:16:36.558","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:16:36.706","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}
+{"timestamp":"00:16:36.869","source":"Browser","level":"ERROR","message":"Attempted to synchronously unmount a root while React was already rendering. React cannot finish unmounting the root until the current render has completed, which may lead to a race condition. "}
+{"timestamp":"00:16:36.869","source":"Server","level":"ERROR","message":"[browser] \"Attempted to synchronously unmount a root while React was already rendering. React cannot finish unmounting the root until the current render has completed, which may lead to a race condition.\" \"\""}
+{"timestamp":"00:16:43.928","source":"Server","level":"LOG","message":"✓ Compiled in 600ms"}
+{"timestamp":"00:16:55.793","source":"Server","level":"LOG","message":"✓ Compiled in 787ms"}
+{"timestamp":"00:17:03.082","source":"Server","level":"LOG","message":"✓ Compiled in 75ms"}
+{"timestamp":"00:17:03.914","source":"Browser","level":"ERROR","message":"Uncaught NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.\n    at div (<anonymous>)"}
+{"timestamp":"00:17:03.914","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.\\u001b[39m\\n\\u001b[31m    at div (<anonymous>)\\u001b[39m\""}
+{"timestamp":"00:17:03.915","source":"Browser","level":"WARN","message":"An error occurred in the <div> component.\n\nConsider adding an error boundary to your tree to customize error handling behavior.\nVisit https://react.dev/link/error-boundaries to learn more about error boundaries.\n"}
+{"timestamp":"00:17:03.935","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33m\\u001b[33mAn error occurred in the <div> component.\\u001b[39m\\n\\n\\u001b[33mConsider adding an error boundary to your tree to customize error handling behavior.\\nVisit https://react.dev/link/error-boundaries to learn more about error boundaries.\\u001b[39m\\n\\u001b[39m\""}
+{"timestamp":"00:17:04.365","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:17:04.378","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}
+{"timestamp":"00:18:47.910","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:18:56.215","source":"Server","level":"LOG","message":"✓ Compiled in 4ms"}
+{"timestamp":"00:19:09.107","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:19:09.199","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}
+{"timestamp":"00:19:10.388","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:19:10.937","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:19:10.937","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}
+{"timestamp":"00:21:46.193","source":"Server","level":"LOG","message":"✓ Compiled in 493ms"}
+{"timestamp":"00:21:47.314","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
+{"timestamp":"00:21:52.734","source":"Server","level":"LOG","message":"✓ Compiled in 4ms"}
+{"timestamp":"00:22:01.896","source":"Server","level":"LOG","message":"✓ Compiled in 11ms"}
+{"timestamp":"00:22:03.788","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"00:22:06.309","source":"Browser","level":"ERROR","message":"./app/components/EarthGlobe.tsx:73:5\nError: Expression expected\n  71 |\n  72 |       <\n> 73 |     </group>\n     |     ^\n  74 |   );\n  75 | }\n  76 |\n\nParsing ecmascript source code failed\n\nImport trace:\n  Client Component Browser:\n    ./app/components/EarthGlobe.tsx [Client Component Browser]\n    ./app/page.tsx [Client Component Browser]\n    ./app/page.tsx [Server Component] "}
+{"timestamp":"00:22:06.310","source":"Server","level":"ERROR","message":"[browser] \"./app/components/EarthGlobe.tsx:73:5\\nError: Expression expected\\n  71 |\\n  72 |       <\\n> 73 |     </group>\\n     |     ^\\n  74 |   );\\n  75 | }\\n  76 |\\n\\nParsing ecmascript source code failed\\n\\nImport trace:\\n  Client Component Browser:\\n    ./app/components/EarthGlobe.tsx [Client Component Browser]\\n    ./app/page.tsx [Client Component Browser]\\n    ./app/page.tsx [Server Component]\" \"\""}
+{"timestamp":"00:22:06.310","source":"Browser","level":"ERROR","message":"./app/components/EarthGlobe.tsx:73:6\nError: Unterminated regexp literal\n  71 |\n  72 |       <\n> 73 |     </group>\n     |      ^^^^^^^\n  74 |   );\n  75 | }\n  76 |\n\nParsing ecmascript source code failed\n\nImport trace:\n  Client Component Browser:\n    ./app/components/EarthGlobe.tsx [Client Component Browser]\n    ./app/page.tsx [Client Component Browser]\n    ./app/page.tsx [Server Component] "}
+{"timestamp":"00:22:06.310","source":"Server","level":"ERROR","message":"[browser] \"./app/components/EarthGlobe.tsx:73:6\\nError: Unterminated regexp literal\\n  71 |\\n  72 |       <\\n> 73 |     </group>\\n     |      ^^^^^^^\\n  74 |   );\\n  75 | }\\n  76 |\\n\\nParsing ecmascript source code failed\\n\\nImport trace:\\n  Client Component Browser:\\n    ./app/components/EarthGlobe.tsx [Client Component Browser]\\n    ./app/page.tsx [Client Component Browser]\\n    ./app/page.tsx [Server Component]\" \"\""}
+{"timestamp":"00:22:08.701","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:22:08.999","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:22:09.000","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}
+{"timestamp":"00:22:39.876","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:22:40.181","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:22:40.182","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}
+{"timestamp":"00:23:25.423","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:23:28.866","source":"Server","level":"LOG","message":"✓ Compiled in 4ms"}
+{"timestamp":"00:23:36.383","source":"Server","level":"LOG","message":"✓ Compiled in 5ms"}
+{"timestamp":"00:23:37.954","source":"Server","level":"LOG","message":"✓ Compiled in 5ms"}
+{"timestamp":"00:23:42.083","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}
+{"timestamp":"00:23:45.259","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:23:46.565","source":"Browser","level":"WARN","message":"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:23:46.565","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\""}
+{"timestamp":"00:25:59.320","source":"Server","level":"LOG","message":"✓ Compiled in 6ms"}
